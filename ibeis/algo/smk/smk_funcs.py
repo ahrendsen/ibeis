@@ -608,6 +608,7 @@ def invert_assigns(idx_to_wxs, idx_to_maws, verbose=False):
         >>> idx_to_maws[1, 1] = np.ma.masked
         >>> tup = invert_assigns(idx_to_wxs, idx_to_maws)
         >>> wx_to_idxs, wx_to_maws = tup
+        >>> import ubelt as ub
         >>> result = 'wx_to_idxs = %s' % (ub.urepr(wx_to_idxs, with_dtype=True, sk=1),)
         >>> result += '\nwx_to_maws = %s' % (ub.urepr(wx_to_maws, with_dtype=True, sk=1),)
         >>> print(result)
