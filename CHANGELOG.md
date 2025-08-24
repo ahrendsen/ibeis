@@ -7,6 +7,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### [Version 2.4.0] - Released xx
 
+### Changed
+* Support 312, 313, 314
+
 ### Added
 * Can now dump a simplified version of the database to a kwcoco file
 
