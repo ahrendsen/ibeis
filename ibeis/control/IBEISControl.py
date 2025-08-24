@@ -198,8 +198,6 @@ def request_IBEISController(
         >>> result = str(ibs)
         >>> print(result)
     """
-    global __IBEIS_CONTROLLER_CACHE__
-
     if use_cache and dbdir in __IBEIS_CONTROLLER_CACHE__:
         if verbose:
             print('[request_IBEISController] returning cached controller')

@@ -79,7 +79,6 @@ def checkinfo(target=None, pipname=None):
         """
 
         # Decorator which adds funcs to ASSERT_FUNCS
-        global ASSERT_FUNCS
         @functools.wraps(func)
         def checkinfo_wrapper(*args, **kwargs):
             suggested_fix = ''
