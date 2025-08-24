@@ -109,10 +109,6 @@ jobs:
           install-extras: tests-strict,runtime-strict,headless-strict
           os: ubuntu-latest
           arch: auto
-        - python-version: 3.14.0-rc.1
-          install-extras: tests-strict,runtime-strict,headless-strict
-          os: ubuntu-latest
-          arch: auto
         - python-version: '3.9'
           install-extras: tests-strict,runtime-strict,optional-strict,headless-strict
           os: ubuntu-latest
@@ -134,10 +130,6 @@ jobs:
           os: ubuntu-latest
           arch: auto
         - python-version: '3.13'
-          install-extras: tests,optional,headless
-          os: ubuntu-latest
-          arch: auto
-        - python-version: 3.14.0-rc.1
           install-extras: tests,optional,headless
           os: ubuntu-latest
           arch: auto
