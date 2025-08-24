@@ -550,6 +550,7 @@ def invert_assigns_old(idx_to_wxs, idx_to_maws, verbose=False):
         >>>     np.array([ 0.5,  0.5], dtype=np.float32),
         >>> ]
         >>> wx_to_idxs, wx_to_maws = invert_assigns_old(idx_to_wxs, idx_to_maws)
+        >>> import ubelt as ub
         >>> result = 'wx_to_idxs = %s' % (ub.urepr(wx_to_idxs, with_dtype=True, sk=1),)
         >>> result += '\nwx_to_maws = %s' % (ub.urepr(wx_to_maws, with_dtype=True, sk=1),)
         >>> print(result)
