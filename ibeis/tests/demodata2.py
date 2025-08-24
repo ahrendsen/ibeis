@@ -3,14 +3,15 @@ from ibeis.tests.demodata_registery import DemoDataRegistry
 DEMODATA = DemoDataRegistry(appname='ibeis')
 DEMODATA.register(
     **{
-        'key': 'testdb0',
-        'fname': 'testdb0.zip',
+        'key': 'testdb1',
+        'fname': 'testdb1.zip',
         'url': 'https://data.kitware.com/api/v1/file/68aa804908a548e171789a8e/download',
         'note': 'the ibeis simple testdata.',
         'mirrors': [
-            'https://cthulhu.dyn.wildme.io/public/data/testdata.zip',  # Old and broken
+            # 'https://cthulhu.dyn.wildme.io/public/data/testdata.zip',  # Old and broken
         ],
         'ipfs_cids': [
+            'bafybeiemhexooztry66opieszfhfb2v4af7ittx32vxqtaffjnhqaez5yi',
         ],
         'sha256': '597a733c5990372e78ac1aba2f950737037016a35521f2bdca94b82f29b7c4b9',
         'sha512': 'fd1b571fc92c403002b5df223971e2453abea5601629d028b718aead281f1bd5a3680bc0c74c7ba3d28a6505566074bb1ec2a3060d11d9d4da94c0d80dfb01ae',
