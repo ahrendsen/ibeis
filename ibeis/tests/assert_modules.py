@@ -66,7 +66,7 @@ def version_ge_target(version, target=None):
         try:
             from pkg_resources import parse_version
             passed = parse_version(_version) >= parse_version(target)
-        except ImportError:
+        except (ImportError, AttributeError):
             from packaging import version
             passed = version.parse(_version) >= version.parse(target)
     return passed
