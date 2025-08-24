@@ -1499,9 +1499,8 @@ def get_name_gps_tracks(ibs, nid_list=None, aid_list=None):
         >>> ut.compress(nid_list, nonempty_list)
         >>> ut.compress(gps_track_list, nonempty_list)
         >>> ut.compress(aid_track_list, nonempty_list)
-        >>> result = str(aid_track_list)
-        >>> print(result)
-        [[11], [], [4], [1], [2, 3], [5, 6], [7], [8], [10], [12], [13]]
+        >>> result = ub.urepr(aid_track_list, nl=0, strvals=True)
+        >>> assert result == '[[11], [], [4], [1], [2, 3], [5, 6], [7], [8], [10], [12], [13]]'
     """
     assert aid_list is None or nid_list is None, 'only specify one please'
     if aid_list is None:
