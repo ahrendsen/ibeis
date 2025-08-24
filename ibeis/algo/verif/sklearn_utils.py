@@ -86,7 +86,6 @@ class StratifiedGroupKFold(_BaseKFold):
         #                    " be less than n_splits=%d."
         #                    % (min_classes_, self.n_splits)), Warning)
 
-
         # FIXME: if the code after is failing for numpy 2.x we may need to
         # ravel the y value here to get old behavior. Don't remember if it is
         # flat to start with.
