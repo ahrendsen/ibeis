@@ -34,7 +34,7 @@ pyasn1>=0.4.8
 pyzmq>=25.0.0
 setuptools>=34.1.0
 simplejson>=3.6.5
-six>=1.10.0
+six>=1.16.0
 
 # TODO: this should be deprecated and removed in favor of fasteners
 lockfile>=0.10.2
