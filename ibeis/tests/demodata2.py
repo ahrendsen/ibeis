@@ -4,7 +4,7 @@ DEMODATA = DemoDataRegistry(appname='ibeis')
 DEMODATA.register(
     **{
         'key': 'testdb1',
-        'fname': 'testdb1.zip',
+        'fname': 'testdata.zip',
         'url': 'https://data.kitware.com/api/v1/file/68aa804908a548e171789a8e/download',
         'note': 'the ibeis simple testdata.',
         'mirrors': [

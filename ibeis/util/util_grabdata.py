@@ -203,6 +203,7 @@ def grab_zipped_url(zipped_url, ensure=True, appname='utool',
                         ub.download(zipped_url, file, chunksize=2 ** 20)
             unarchive_file(zip_fpath, force_commonprefix)
             if cleanup:
+                assert exists(data_dir)
                 ub.Path(zip_fpath).delete()  # Cleanup
     if cleanup:
         assert exists(data_dir)

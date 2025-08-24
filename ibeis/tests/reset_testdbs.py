@@ -60,6 +60,10 @@ def get_testdata_dir(ensure=True, key='testdb1'):
         # zipped_testdata_url,
         ensure=ensure
     )
+    # Hack:
+    # if testdata_dir.name == 'testdb1':
+    #     testdata_dir.parent / 'testdata'
+
     return testdata_dir
 
 
