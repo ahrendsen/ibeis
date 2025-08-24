@@ -8,7 +8,7 @@ futures_actors>=0.0.5
 
 # Our IBEIS-specific binary packages 
 pyflann_ibeis>=2.4.1
-vtool_ibeis_ext>=0.1.1
+vtool_ibeis_ext>=0.1.2
 pyhesaff>=2.1.2
 
 

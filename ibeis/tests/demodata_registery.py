@@ -171,7 +171,7 @@ class DemoDataRegistry:
 
     # ---- download / caching
 
-    def grab(self, key: str, *, fname: str | None = None,
+    def grab(self, key: str, *, fname=None,
              require_hash: bool = False, allow_mirror_fallback: bool = True):
         """
         Ensure the file for ``key`` is cached locally and return its path.
@@ -238,9 +238,9 @@ class DemoDataRegistry:
 
     def update_hashes(
         self,
-        keys: list[str] | None = None,
-        hasher_priority: tuple[str, ...] = ("sha256", "sha512"),
-        request_hashers: tuple[str, ...] = ("sha256", "sha512"),
+        keys=None,
+        hasher_priority=("sha256", "sha512"),
+        request_hashers=("sha256", "sha512"),
         require_existing_hash: bool = False,
         ensure_ipfs: bool = False,
         ensure_metadata: bool = False,
