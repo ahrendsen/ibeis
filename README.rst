@@ -35,7 +35,7 @@ Installation Instructions (updated 2020-Nov-01)
 The IBEIS software is now available on `pypi
 <https://pypi.org/project/ibeis/>`_ for Linux systems. This means if you have
 `Python installed
-<https://xdoctest.readthedocs.io/en/latest/installing_python.html>`_. You can
+<https://xdoctest.readthedocs.io/en/latest/manual/installing_python.html>`_. You can
 simply run:
 
 
